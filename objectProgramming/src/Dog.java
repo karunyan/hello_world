@@ -1,6 +1,6 @@
 public class Dog {
-int size; 
-String name;
+private int size; 
+private String name;
 
 static String BIG_BARK = "Wooof! Wooof!";
 static String MEDIUM_BARK = "Ruff! Ruff!";
