@@ -25,5 +25,6 @@ public class DotCom {
 
 	public void setLocationCells(ArrayList<String> locationCells) {
 		this.locationCells = locationCells;
+		
 	}
 }
