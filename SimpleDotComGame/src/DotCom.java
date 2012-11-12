@@ -1,5 +1,5 @@
 
-public class SimpleDotCom {
+public class DotCom {
 
 	private int numOfHits = 0;
 	private int[] locationCells;

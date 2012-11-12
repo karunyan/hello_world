@@ -15,7 +15,5 @@ public class GameHelper {
 			System.out.println("IOException: " +e);
 		}
 		return(inputLine);
-		
-		//Test Experiment
 	}
 }

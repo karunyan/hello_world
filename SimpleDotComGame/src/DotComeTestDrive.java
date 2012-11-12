@@ -1,4 +1,4 @@
-public class SimpleDotComeTestDrive {
+public class DotComeTestDrive {
 
 	public static void main(String[] args) {
 
@@ -8,7 +8,7 @@ public class SimpleDotComeTestDrive {
 		boolean isAlive = true;
 		GameHelper helper = new GameHelper();
 		
-		SimpleDotCom dot = new SimpleDotCom();
+		DotCom dot = new DotCom();
 		dot.setLocationCells(locations);
 
 		while (isAlive == true) {
