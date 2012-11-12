@@ -1,8 +1,9 @@
 import java.util.ArrayList;
 
 public class DotCom {
-
-	ArrayList<String> locationCells;
+	
+	private String name;
+	private ArrayList<String> locationCells;
 
 	public String checkYourself(String userGuess) {
 
@@ -26,5 +27,13 @@ public class DotCom {
 	public void setLocationCells(ArrayList<String> locationCells) {
 		this.locationCells = locationCells;
 		
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
 	}
 }
