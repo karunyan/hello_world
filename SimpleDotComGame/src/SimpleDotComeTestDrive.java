@@ -11,19 +11,15 @@ public class SimpleDotComeTestDrive {
 		SimpleDotCom dot = new SimpleDotCom();
 		dot.setLocationCells(locations);
 
-		// InputStreamReader kGuess = new InputStreamReader(System.in);
-		// BufferedReader userGuess = new BufferedReader(kGuess);
-
 		while (isAlive == true) {
 
-			//String userGuess = "2";
 			String userGuess = helper.getUserInput("enter a number");
 			String result = dot.checkYourself(userGuess);
 			numOfGuesses++;
 
 			if (result.equals("kill")) {
 				isAlive = false;
-				System.out.println("You took " + numOfGuesses + "guesses");
+				System.out.println("You took " + numOfGuesses + " guesses");
 			}
 		}
 
