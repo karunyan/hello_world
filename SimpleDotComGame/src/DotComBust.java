@@ -22,11 +22,11 @@ public class DotComBust {
 
 		System.out.println("Your goal is to sink there dot coms.");
 		System.out.println("Pets.com, eToys.com, Go2.com");
-		System.out
-				.println("Try to sink them all in the fewest number of guesses");
+		System.out.println("Try to sink them all in the fewest number of guesses \n");
+
 
 		for (DotCom dotComToSet : dotComList) {
-			ArrayList<String> newLocation = helper.placeDotCom(3); // Resolve
+			ArrayList<String> newLocation = helper.placeDotCom(3);
 			dotComToSet.setLocationCells(newLocation);
 		}
 
