@@ -16,4 +16,10 @@ public class GameHelper {
 		}
 		return(inputLine);
 	}
+	public ArrayList<String> placeDotCom(int x)
+	{
+		String[] location = null;
+		//get randomly selected location for this DotCom
+		return location;
+	}
 }
